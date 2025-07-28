@@ -1,0 +1,19 @@
+{
+  "name": "day2",
+  "version": "1.0.0",
+  "description": "this package is making for learning npm",
+  "license": "ISC",
+  "author": "Jishnu",
+  "type": "commonjs",
+  "scripts": {
+    "test": "just",
+    "start": "parcel indexParcel.html --open"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
