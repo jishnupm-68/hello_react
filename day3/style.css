@@ -1,0 +1,37 @@
+h1{
+    color: blue;
+}
+
+h3{
+    color: green;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b6bdca;
+    padding: 5px 15px;
+    color: white;
+    height: 100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.heading{
+    color:aqua;
+    padding: 15px;
+}
+
+input, button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    color:blueviolet;
+    background-color: bisque;
+    cursor: pointer;
+}
+
+.user-icon{
+   padding: 10px;
+}
