@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
+import { useState } from 'react';
 
 /**
  * header
@@ -1028,6 +1028,7 @@ const Footer = ()=>{
     return(
         <div className='footer'>
             <h3>Footer</h3>
+          
             <p>current time: {new Date().toLocaleTimeString()}</p>
             <p>Contact us: <a href="mailto:support@foodapp.com">support@foodapp.com</a></p>
             <p>© 2025 Food Delivery App</p>
