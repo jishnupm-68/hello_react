@@ -4,7 +4,6 @@ import { CLOUDINARY_URL } from "../utils/constant";
 const ResturantCard = ({name, cloudinaryImageId,cuisines, locality,avgRating} ) => {
     return (
         <>
-        
         <div className='resturantCard'>
             <img className='cardImage' src={CLOUDINARY_URL + cloudinaryImageId} />
             <h3>{name} </h3>
@@ -13,7 +12,6 @@ const ResturantCard = ({name, cloudinaryImageId,cuisines, locality,avgRating} ) 
             <p> Rating: 💛{avgRating} </p>
         </div>
         </>
-        
     )
 }
 
