@@ -1,0 +1,155 @@
+
+.header{
+    display: flex;
+    /* border: solid 1px #000; */
+    height: 120px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #936161;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+
+.navItems>ul{
+    display:flex;
+    padding:20px;
+    margin: 0px 15px;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+    font-size: 25px;
+}
+.navItems>ul>li{
+    padding: 15px;
+}
+.searchBar>input{
+    width: 250px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    border: solid 1px #9e0f0f;
+    margin: 10px;
+}
+.resturantCard{
+    width: 200px;
+    height: 350px;
+    border:none;
+    
+}
+
+.cardImage{
+    width: 90%;
+    height: 100px;
+}
+
+.body{
+   margin: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0e6e6;
+    /* border: solid 1px #000; */
+}
+
+.resturantContainer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: azure;
+    
+}
+.resturantList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 20px;
+}
+.resturantCard{
+    padding: 10px;
+    /* border: solid 1px #000; */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(109, 41, 41, 0.1);
+    margin:5px;
+    background-color: rgb(220, 238, 238);
+    
+}
+
+.footer{
+    padding: 10px;
+    margin: 5px;
+    /* border: solid 1px #000; */
+    background-color: #e8dfe3;
+    text-align: left;
+}
+
+.filterBtn{
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: bisque;
+    border-radius: 5px;
+    border: 1px solid #9e0f0f;
+    cursor: pointer;
+}
+
+.shimmerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 20px;
+    background-color: azure;
+}
+.shimmerCard{
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(220, 238, 238);
+    animation: shimmer 1.5s infinite linear;
+}
+
+.login{
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: rgb(104, 60, 16);
+    border-radius: 5px;
+    border: 1px solid #9e0f0f;
+    cursor: pointer;
+    color:white;
+}
+
+.search{
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color:white;
+}
+.searchInput{
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+}
+
+
+.searchBtn{
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: rgb(104, 60, 16);
+    border-radius: 5px;
+    border: 1px solid #9e0f0f;
+    cursor: pointer;
+    color:white;
+}
+
+.filter{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+}
