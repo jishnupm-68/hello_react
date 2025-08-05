@@ -1,0 +1,28 @@
+{
+  "name": "day4",
+  "version": "1.0.0",
+  "description": "learning react using first food order project ",
+  "keywords": [
+    "[\"learning",
+    "react\"",
+    "\"food",
+    "order",
+    "app\"]"
+  ],
+  "license": "ISC",
+  "author": "jishnu",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.7.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
